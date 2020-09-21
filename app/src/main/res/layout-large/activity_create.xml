@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:background="#03A9F4"
+            android:layout_centerVertical="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/create_firstName"
+                android:hint="@string/firstName"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#A21FBB"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:layout_marginBottom="7dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/create_lastName"
+                android:hint="@string/lastName"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#A21FBB"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:layout_marginBottom="7dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/create_username"
+                android:hint="@string/username"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#A21FBB"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:layout_marginBottom="7dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/create_password"
+                android:hint="@string/password"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#A21FBB"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:layout_marginBottom="7dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/create_email"
+                android:hint="@string/email"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#A21FBB"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:layout_marginBottom="7dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:id="@+id/create_createbtn"
+                android:background="@drawable/button"
+                android:textColor="#E545FF"
+                android:layout_marginBottom="7dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textSize="24sp"
+                android:textStyle="bold|italic"
+                android:id="@+id/create_login"
+                android:background="@drawable/button"
+                android:textColor="#E545FF"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</layout>

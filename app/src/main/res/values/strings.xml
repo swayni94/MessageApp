@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MessageAppJava</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="beniHatirla">BENİHATİRLA</string>
+    <string name="loding">LODİNG</string>
+    <string name="login">login</string>
+    <string name="forgettopassword">Forget to password</string>
+    <string name="create">Create</string>
+
+
+    <string name="firstName">FIRST NAME</string>
+    <string name="lastName">LAST NAME</string>
+    <string name="email">Email</string>
+
+</resources>
